@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "アイテムイベント\n製作:なるる\nYouTube:なるる-Naruru",
+        "name": "ComponentEvent ver1.0.0",
+        "uuid": "a7264918-8c92-4e9c-9f6d-3be462704790",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "f9f0ccde-60a2-4871-972c-6b7f64f7c1b7",
+            "version": [1, 0, 0],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0-alpha"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0-alpha"
+        }
+    ]
+}
